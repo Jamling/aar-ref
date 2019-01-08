@@ -32,10 +32,12 @@ dependencies {
 
 # SDK 列表
 
-|名称           |SDK      | 最新版本    | 说明    |
-| ---------------- |:---------:|:----------:|:-----------:|
-| 支付宝          |alipaySdk         |15.5.9          |            |
-| 百度自动升级          |bd_autoupdate_sdk         |1.3.1           |          |
+|名称            |SDK                | 最新版本    | 项目链接     |  说明 |
+| -------------- |:----------------:|:----------:|:-----------:|:--------:|
+| 支付宝          |[alipaySdk](http://jcenter.bintray.com/cn/ieclipse/aar-ref/alipaySdk)         |15.5.9      |Jamling 上传           | 已是最新
+| 百度自动升级     |[bd_autoupdate_sdk](http://jcenter.bintray.com/cn/ieclipse/aar-ref/bd_autoupdate_sdk) |1.3.1       |Jamling 上传             | 上百度市场必须集成
+| 360自动升级     |[360update](http://jcenter.bintray.com/cn/ieclipse/aar-ref/360update) |7.0.3       |[Jamling/MarketUpdateSDK](https://github.com/Jamling/MarketUpdateSDK)             |  上360市场必须集成
+| 银联支付     |[unionpay](http://jcenter.bintray.com/cn/ieclipse/aar-ref/unionpay) |3.5.4       |[Jamling/af-pay](https://github.com/Jamling/af-pay)             |  
 
 # 贡献
 
