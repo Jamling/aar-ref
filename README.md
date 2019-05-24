@@ -6,8 +6,8 @@
 
 ## 官方使用方式
 
-1，去支付宝开放平台下载`alipaySdk-15.5.9-20181123210601.aar`，放到app的libs目录下
-2，app/build.gradle中添加本地aar所在的目录及依赖
+1. 去支付宝开放平台下载最新的支付宝aar sdk，比如`alipaySdk-15.5.9-20181123210601.aar`，放到app的libs目录下
+2. app/build.gradle中添加本地aar所在的目录及依赖
 ```gradle
 repositories {
     jcenter()
@@ -25,7 +25,8 @@ app/build.gradle中添加依赖
 ```gradle
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'cn.ieclipse.aar-ref:alipaySdk:15.5.9')
+    compile 'cn.ieclipse.aar-ref:alipaySdk:15.6.2'
+}
 ```
 
 是不是简单的许多，而且，更重要的一点是，它还可以在library module中使用
@@ -34,7 +35,7 @@ dependencies {
 
 |名称            |SDK                | 最新版本    | 项目链接     |  说明 |
 | -------------- |:----------------:|:----------:|:-----------:|:--------:|
-| 支付宝          |[alipaySdk](http://jcenter.bintray.com/cn/ieclipse/aar-ref/alipaySdk)         |15.5.9      |Jamling 上传           | 已是最新
+| 支付宝          |[alipaySdk](http://jcenter.bintray.com/cn/ieclipse/aar-ref/alipaySdk)         |15.6.2      |Jamling 上传           | 已是最新
 | 百度自动升级     |[bd_autoupdate_sdk](http://jcenter.bintray.com/cn/ieclipse/aar-ref/bd_autoupdate_sdk) |1.3.1       |Jamling 上传             | 上百度市场必须集成
 | 360自动升级     |[360update](http://jcenter.bintray.com/cn/ieclipse/aar-ref/360update) |7.0.3       |[Jamling/MarketUpdateSDK](https://github.com/Jamling/MarketUpdateSDK)             |  上360市场必须集成
 | 银联支付     |[unionpay](http://jcenter.bintray.com/cn/ieclipse/aar-ref/unionpay) |3.5.4       |[Jamling/af-pay](https://github.com/Jamling/af-pay)             |  
